@@ -1,0 +1,55 @@
+
+.content{max-width: 1001px; margin: 0 auto; padding-top: 40px;}
+
+/***********************************大于1000*************************************/
+@media screen and (min-width:1000px) {
+.content{max-width: 1000px; margin: 0 auto; padding-top: 40px; padding-bottom: 120px;}
+.content aside{width: 26.5%; float: left; border-right: 1px solid #bababa;}
+.content aside a{width: 160px; padding-left: 90px; display: block; height: 76px; line-height: 80px; border-bottom: 3px solid transparent; font-size: 22px; color: #1d1c18;}
+.content aside a:hover{border-bottom: 3px solid #ff942d;}
+.content article{float: left; width: 66.9%; padding-left: 5%; padding-right: 1.5%;}
+.content article h2{font-size: 18px; color: #fa9634; display: block; line-height: 50px;}
+.content article h3{font-size: 16px; display: block; line-height: 30px;}
+.content article h4{font-size: 16px; display: block; line-height: 30px; margin-top: 10px;}
+.content article p{line-height: 30px; display: block; font-size: 16px; color: #000000; padding-bottom: 2px;}
+
+}
+
+/***********************************720-1000*************************************/
+@media screen and (min-width:720px) and (max-width:1000px) {
+.content{padding-left: 15px; padding-right: 15px; padding-top: 40px; padding-bottom: 80px;}
+.content aside{width: 26.5%; float: left; border-right: 1px solid #bababa;}
+.content aside a{width: 60%; padding-left: 34%; display: block; height: 76px; line-height: 80px; border-bottom: 3px solid transparent; font-size: 22px; color: #1d1c18;}
+.content aside a:hover{border-bottom: 3px solid #ff942d;}
+.content article{float: left; width: 66.8%; padding-left: 5%; padding-right: 1.5%;}
+.content article h2{font-size: 18px; color: #fa9634; display: block; line-height: 50px;}
+.content article h3{font-size: 16px; display: block; line-height: 30px;}
+.content article h4{font-size: 16px; display: block; line-height: 30px; margin-top: 10px;}
+.content article p{line-height: 30px; display: block; font-size: 16px; color: #000000; padding-bottom: 2px;}
+}
+
+
+/***********************************480-720*************************************/
+@media screen and (min-width:480px) and (max-width:719px) {
+.content{padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 60px;}
+.content aside{width: 90%; padding-left: 5%; padding-right: 5%; margin-bottom: 20px; border-bottom: 1px solid #ccc;}
+.content aside a{width: 25%; padding-top: 40px; display: block; float: left; height: 40px; line-height: 40px; font-size: 20px; color: #1d1c18; text-align: center;}
+.content article{float: left; width: 100%; font-size: 16px;}
+.content article h2{font-size: 18px; color: #fa9634; display: block; line-height: 50px;}
+.content article h3{font-size: 16px; display: block; line-height: 30px;}
+.content article h4{font-size: 16px; display: block; line-height: 30px; margin-top: 10px;}
+.content article p{line-height: 30px; padding-left: 36px; display: block; font-size: 16px; color: #000000; padding-bottom: 2px;}
+}
+
+
+/***********************************小于480*************************************/
+@media screen and (max-width:479px) {
+.content{padding-left: 15px; padding-right: 15px; padding-top: 20px; padding-bottom: 20px;}
+.content aside{width: 90%; padding-left: 5%; padding-right: 5%;}
+.content aside a{width: 25%; padding-top: 40px; display: block; float: left; height: 40px; line-height: 40px; font-size: 16px; color: #1d1c18; text-align: center;}
+.content article{float: left; width: 100%;}
+.content article h2{font-size: 18px; color: #fa9634; display: block; line-height: 50px;}
+.content article h3{font-size: 16px; display: block; line-height: 30px;}
+.content article h4{font-size: 16px; display: block; line-height: 30px; margin-top: 10px;}
+.content article p{line-height: 30px; padding-left: 36px; display: block; font-size: 16px; color: #000000; padding-bottom: 2px;}
+}

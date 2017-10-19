@@ -1,0 +1,244 @@
+
+.content{max-width: 1000px; margin: 0 auto; padding-top: 40px;}
+
+/***********************************大于1000*************************************/
+@media screen and (min-width:1001px) {
+.content{max-width: 1000px; margin: 0 auto; padding-top: 40px;}
+.content aside{width: 28%; float: left; border-right: 1px solid #bababa;}
+.content aside a{width: 190px; padding-left: 75px; display: block; height: 77px; line-height: 90px; border-bottom: 3px solid transparent; font-size: 24px; color: #1d1c18;}
+.content aside a span{display: inline-block;}
+
+.content aside a:hover{border-bottom: 3px solid #ff942d;}
+
+.content .banner{float: right; width: 65.8%; padding-left: 4.5%; padding-right: 1.5%;}
+.content>div{float: right; width: 65.8%; padding-right: 1.5%; padding-bottom: 40px;}
+.content>div p{line-height: 30px; font-size: 16px; text-indent: 32px;}
+.content>div p:first-of-type{padding-top: 132px;}
+
+.bx-wrapper .bx-pager div a:hover{background-color: #000;}
+
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a.active{
+	background-color: #000;
+	border: 1px solid #5D4C8C;
+	}
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item{
+	display: inline-block;
+	background: url(../img/asd.jpg) repeat;
+}
+.bx-wrapper .bx-pager div{
+	cursor: pointer;
+	display: block;
+	position: relative;
+}
+.bx-wrapper .bx-pager div:hover:before{
+	content: '';
+	position: absolute;
+	left: 45%;
+	z-index: 1;
+	top: -5px;
+	width: 10px;
+	height: 10px;
+	background: #000000;
+	transform: rotate(45deg);
+}
+.bx-wrapper .bx-pager div .active:before{
+	content: '';
+	position: absolute;
+	left: 45%;
+	z-index: 1;
+	top: -5px;
+	width: 10px;
+	height: 10px;
+	background: #000000;
+	transform: rotate(45deg);
+}
+
+.bx-wrapper .bx-pager div:nth-of-type(1) a{
+	background-size: 110px 65px;
+}
+.bx-wrapper .bx-pager div:nth-of-type(2) a{
+	background-size: 110px 65px;
+}
+.bx-wrapper .bx-pager div:nth-of-type(3) a{
+	background-size: 110px 65px;
+}
+.bx-wrapper .bx-pager div:nth-of-type(4) a{
+	background-size: 110px 65px;
+}
+.bx-wrapper .bx-pager div:nth-of-type(5) a{
+	background-size: 110px 65px;
+}
+}
+/***********************************720-1000*************************************/
+@media screen and (min-width:720px) and (max-width:1000px) {
+.content{padding-left: 15px; padding-right: 15px; padding-top: 40px; padding-bottom: 40px;}
+.content aside{width: 30%; float: left; border-right: 1px solid #bababa;}
+.content aside a span{display: inline-block;}
+.content aside a{width: 71%; padding-left: 25%; display: block; height: 76px; line-height: 90px; border-bottom: 3px solid transparent; font-size: 20px; color: #1d1c18;}
+
+.content aside a:hover{border-bottom: 3px solid #ff942d;}
+
+.content .banner{float: right; width: 65%; padding-left: 2.5%; padding-right: 2%;}
+.content>div{float: right; width: 65%; padding-right: 2%;}
+.content>div p{line-height: 30px; font-size: 16px; text-indent: 32px;}
+.content>div p:first-of-type{padding-top: 112px;}
+
+
+.bx-wrapper .bx-pager div a:hover{background-color: #000;}
+
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a.active{
+	background-color: #000;
+	border: 1px solid #5D4C8C;
+	}
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item{
+	display: inline-block;
+	background: url(../img/asd.jpg) repeat;
+}
+.bx-wrapper .bx-pager div{
+	cursor: pointer;
+	display: block;
+	position: relative;
+}
+.bx-wrapper .bx-pager div:hover:before{
+	content: '';
+	position: absolute;
+	left: 45%;
+	z-index: 1;
+	top: -5px;
+	width: 10px;
+	height: 10px;
+	background: #000000;
+	transform: rotate(45deg);
+}
+.bx-wrapper .bx-pager div .active:before{
+	content: '';
+	position: absolute;
+	left: 45%;
+	z-index: 1;
+	top: -5px;
+	width: 10px;
+	height: 10px;
+	background: #000000;
+	transform: rotate(45deg);
+}
+
+.bx-wrapper .bx-pager div{
+	height: 90px;
+}
+.bx-wrapper .bx-pager a{
+	height: 90px;
+}
+.bx-wrapper .bx-pager div:nth-of-type(1) a{
+	background-size: 80%;
+}
+.bx-wrapper .bx-pager div:nth-of-type(2) a{
+	background-size: 80%;
+}
+.bx-wrapper .bx-pager div:nth-of-type(3) a{
+	background-size: 80%;
+}
+.bx-wrapper .bx-pager div:nth-of-type(4) a{
+	background-size: 80%;
+}
+.bx-wrapper .bx-pager div:nth-of-type(5) a{
+	background-size: 80%;
+}
+.bx-wrapper .bx-pager{
+	bottom: -88px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	height: 88px;
+}
+}
+
+/***********************************480-720*************************************/
+@media screen and (min-width:480px) and (max-width:719px) {
+.content{padding-top: 0px; padding-bottom: 60px;}
+.content aside{width: 90%; margin-bottom: 20px; padding-bottom: 10px; padding-left: 5%; padding-right: 5%; border-bottom: 1px solid #ccc;}
+.content aside a{width: 33.33333%; display: block; float: left; font-size: 18px; color: #1d1c18; text-align: center; height: 26px; line-height: 32px; padding-top: 50px; padding-bottom: 20px;}
+.content aside a span{display: inline-block;}
+
+.content aside a:nth-of-type(6){background-size:40px 36px;}
+
+.content .banner{float: left; width: 100%; font-size: 16px; padding-bottom: 20px;}
+.content>div{
+	 padding-left: 5%; padding-right: 5%; 
+}
+.content>div p{line-height: 30px; font-size: 16px; text-indent: 32px;}
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(../img/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(../img/controls.png) no-repeat -43px -32px;
+}
+.bx-wrapper .bx-pager div,.bx-wrapper .bx-pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 40px;
+	height: 8px !important;
+	margin: 0 5px;
+	outline: 0;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #fb9737 !important;
+}
+
+.bx-wrapper .bx-pager{
+	bottom: 0px;
+	background: none;
+}
+.bx-wrapper .bx-pager div a{
+	background: #fff !important;
+	opacity: 0.7;
+}
+}
+/***********************************小于480*************************************/
+@media screen and (max-width:479px) {
+.content{padding-top: 0px; padding-bottom: 20px;}
+.content aside{width: 90%; margin-bottom: 15px; border-bottom: 1px solid #ccc; padding-left: 5%; padding-right: 5%; padding-bottom: 10px;}
+.content aside a{width: 33.33333%; display: block; float: left; font-size: 18px; color: #1d1c18; text-align: center; height: 26px; line-height: 32px; padding-top: 50px; padding-bottom: 10px;}
+.content aside a span{display: none;}
+.content aside a:nth-of-type(6){background-size:40px 36px;}
+
+.content .banner{float: left; width: 100%; font-size: 16px; padding-bottom: 20px;}
+.content>div{width: 90%; padding-left: 5%; padding-right: 5%; }
+.content>div p{line-height: 30px; font-size: 16px; text-indent: 32px;}
+.content>div p:first-of-type{padding-top: 0px;}
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(../img/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(../img/controls.png) no-repeat -43px -32px;
+}
+.bx-wrapper .bx-pager div,.bx-wrapper .bx-pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 40px;
+	height: 8px !important;
+	margin: 0 5px;
+	outline: 0;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #fb9737 !important;
+}
+.bx-wrapper .bx-pager div a{
+	background: #fff !important;
+	opacity: 0.7;
+}
+.bx-wrapper .bx-pager{
+	bottom: 0px;
+	display: block;
+	background: none;
+}
+}

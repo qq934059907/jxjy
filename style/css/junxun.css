@@ -1,0 +1,76 @@
+
+.content{max-width: 1000px; margin: 0 auto; padding-top: 40px;}
+.bx-wrapper .bx-pager div:nth-of-type(1) a{
+	background: url(../img/xsjx_11.jpg) no-repeat center center;
+}
+.bx-wrapper .bx-pager div:nth-of-type(2) a{
+	background: url(../img/xsjx_22.jpg) no-repeat center center;
+}
+.bx-wrapper .bx-pager div:nth-of-type(3) a{
+	background: url(../img/xsjx_33.jpg) no-repeat center center;
+}
+.bx-wrapper .bx-pager div:nth-of-type(4) a{
+	background: url(../img/xsjx_44.jpg) no-repeat center center;
+}
+.bx-wrapper .bx-pager div:nth-of-type(5) a{
+	background: url(../img/xsjx_55.jpg) no-repeat center center;
+}
+/***********************************大于1000*************************************/
+@media screen and (min-width:1001px) {
+.content aside a:nth-of-type(1){border-bottom: 3px solid #ff942d; background: url(../img/xsjx.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(2){background: url(../img/hysxjd1.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(3){background: url(../img/qwydh1.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(4){background: url(../img/dxs1.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(5){background: url(../img/hjby1.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(6){background: url(../img/sdwh1.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(2):hover{background: url(../img/hysxjd.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(3):hover{background: url(../img/qwydh.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(4):hover{background: url(../img/dxs.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(5):hover{background: url(../img/hjby.gif) no-repeat 20px center;}
+.content aside a:nth-of-type(6):hover{background: url(../img/sdwh.gif) no-repeat 20px center;}
+
+}
+
+
+/***********************************720-1000*************************************/
+@media screen and (min-width:720px) and (max-width:1000px) {
+
+.content aside a:nth-of-type(1){border-bottom: 3px solid #ff942d; background: url(../img/xsjx.gif) no-repeat 5px center;}
+
+
+.content aside a:nth-of-type(2){background: url(../img/hysxjd1.gif) no-repeat 5px center;}
+.content aside a:nth-of-type(3){background: url(../img/qwydh1.gif) no-repeat 5px center;}
+.content aside a:nth-of-type(4){background: url(../img/dxs1.gif) no-repeat 5px center;}
+.content aside a:nth-of-type(5){background: url(../img/hjby1.gif) no-repeat 5px center;}
+.content aside a:nth-of-type(6){background: url(../img/sdwh1.gif) no-repeat 5px center;}
+.content aside a:nth-of-type(2):hover{background: url(../img/hysxjd.gif) no-repeat 5px center;}
+.content aside a:nth-of-type(3):hover{background: url(../img/qwydh.gif) no-repeat 5px center;}
+.content aside a:nth-of-type(4):hover{background: url(../img/dxs.gif) no-repeat 5px center;}
+.content aside a:nth-of-type(5):hover{background: url(../img/hjby.gif) no-repeat 5px center;}
+.content aside a:nth-of-type(6):hover{background: url(../img/sdwh.gif) no-repeat 5px center;}
+
+
+
+}
+
+/***********************************480-720*************************************/
+@media screen and (min-width:480px) and (max-width:719px) {
+.content aside a:nth-of-type(1){background: url(../img/xsjx.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(2){background: url(../img/hysxjd1.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(3){background: url(../img/qwydh1.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(4){background: url(../img/dxs1.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(5){background: url(../img/hjby1.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(6){background: url(../img/sdwh1.gif) no-repeat center 10px;}
+
+}
+/***********************************小于480*************************************/
+@media screen and (max-width:479px) {
+
+.content aside a:nth-of-type(1){background: url(../img/xsjx.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(2){background: url(../img/hysxjd1.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(3){background: url(../img/qwydh1.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(4){background: url(../img/dxs1.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(5){background: url(../img/hjby1.gif) no-repeat center 10px;}
+.content aside a:nth-of-type(6){background: url(../img/sdwh1.gif) no-repeat center 10px;}
+
+}

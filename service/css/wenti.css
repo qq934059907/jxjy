@@ -1,0 +1,44 @@
+.content article p>span{float: left; font-weight: bold;}
+/***********************************大于1000*************************************/
+@media screen and (min-width:1000px) {
+.content aside a:nth-of-type(2){border-bottom: 3px solid #ff942d;}
+.content aside a:first-of-type{background: url(../img/service_1_1.jpg) no-repeat 20px center;}
+.content aside a:nth-of-type(2){background: url(../img/service_2_2.jpg) no-repeat 25px center;}
+.content aside a:nth-of-type(3){background: url(../img/service_3_1.jpg) no-repeat 20px center;}
+.content aside a:nth-of-type(4){background: url(../img/service_4_1.jpg) no-repeat 20px center;}
+.content aside a:first-of-type:hover{background: url(../img/service_1_2.jpg) no-repeat 20px center;}
+.content aside a:nth-of-type(2):hover{background: url(../img/service_2_2.jpg) no-repeat 25px center;}
+.content aside a:nth-of-type(3):hover{background: url(../img/service_3_2.jpg) no-repeat 20px center;}
+.content aside a:nth-of-type(4):hover{background: url(../img/service_4_2.jpg) no-repeat 20px center;}
+}
+
+/***********************************720-1000*************************************/
+@media screen and (min-width:720px) and (max-width:1000px) {
+.content aside a:nth-of-type(2){border-bottom: 3px solid #ff942d;}
+.content aside a:first-of-type{background: url(../img/service_1_1.jpg) no-repeat 15px center;}
+.content aside a:nth-of-type(2){background: url(../img/service_2_2.jpg) no-repeat 18px center;}
+.content aside a:nth-of-type(3){background: url(../img/service_3_1.jpg) no-repeat 15px center;}
+.content aside a:nth-of-type(4){background: url(../img/service_4_1.jpg) no-repeat 15px center;}
+.content aside a:first-of-type:hover{background: url(../img/service_1_2.jpg) no-repeat 15px center;}
+.content aside a:nth-of-type(2):hover{background: url(../img/service_2_2.jpg) no-repeat 18px center;}
+.content aside a:nth-of-type(3):hover{background: url(../img/service_3_2.jpg) no-repeat 15px center;}
+.content aside a:nth-of-type(4):hover{background: url(../img/service_4_2.jpg) no-repeat 15px center;}
+}
+
+
+/***********************************480-720*************************************/
+@media screen and (min-width:480px) and (max-width:719px) {
+.content aside a:first-of-type{background: url(../img/service_1_1.jpg) no-repeat center 0;}
+.content aside a:nth-of-type(2){background: url(../img/service_2_2.jpg) no-repeat center 0;}
+.content aside a:nth-of-type(3){background: url(../img/service_3_1.jpg) no-repeat center 0;}
+.content aside a:nth-of-type(4){background: url(../img/service_4_1.jpg) no-repeat center 0;}
+}
+
+
+/***********************************小于480*************************************/
+@media screen and (max-width:479px) {
+.content aside a:first-of-type{background: url(../img/service_1_1.jpg) no-repeat center 0;}
+.content aside a:nth-of-type(2){background: url(../img/service_2_2.jpg) no-repeat center 0;}
+.content aside a:nth-of-type(3){background: url(../img/service_3_1.jpg) no-repeat center 0;}
+.content aside a:nth-of-type(4){background: url(../img/service_4_1.jpg) no-repeat center 0;}
+}

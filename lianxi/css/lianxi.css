@@ -1,0 +1,29 @@
+.content{max-width: 1000px; margin: 0 auto; padding-top: 10px;text-align: center;}
+.content h2{font-size: 18px; color: #fa9634; display: block; line-height: 50px;}
+.content p{line-height: 36px; display: block; font-size: 22px; font-weight: bold; padding-bottom: 2px;}
+.content p:last-of-type{font-size: 16px; font-weight: normal;}
+.content p>span{display: inline-block; padding-left: 40px;}
+.content p>span:first-of-type{padding-left: 0px;}
+.content img{padding-top: 30px; padding-bottom: 40px;}
+/***********************************大于1000*************************************/
+@media screen and (min-width:1000px) {
+	.content{max-width: 1000px; margin: 0 auto; padding-top: 10px;}
+}
+
+/***********************************720-1000*************************************/
+@media screen and (min-width:720px) and (max-width:1000px) {
+.content{padding: 15px 15px;}
+}
+
+
+/***********************************480-720*************************************/
+@media screen and (min-width:480px) and (max-width:719px) {
+.content{padding: 15px 15px;}
+.content img{width: 100%;}
+}
+
+
+/***********************************小于480*************************************/
+@media screen and (max-width:479px) {
+.content{padding: 15px 15px;}
+.content img{width: 100%;}

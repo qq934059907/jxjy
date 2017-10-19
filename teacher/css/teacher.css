@@ -1,0 +1,50 @@
+.content{max-width: 1000px; margin: 0 auto; padding-top: 40px;}
+.content>h2{text-align: center; font-size: 30px; font-weight: bold;}
+.content>p{width: 80%; text-align: center; font-size: 24px; margin: 19px 10% 0 10%; color: #888888;}
+.content>ul{padding: 57px 10px 0 10px;}
+.content ul li img{width: 100%; display: block;}
+.content ul li{width: 25%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; padding: 0 15px; float: left;}
+.content>ul div p{display: block; color: #888; line-height: 24px; padding-top: 16px; text-indent: 28px; font-size: 14px;}
+.content ul li div p span {text-indent: 0; display: block; font-size: 18px; font-weight: bold; color: #888; margin-top: 5px;}
+/***********************************大于1000*************************************/
+@media screen and (min-width:1001px) {
+.content ul li{height: 801px;}
+.content ul li div{display:inline-block;}
+.content ul li>img{display: none;}
+.smas{display: none;}
+}
+
+/***********************************720-1000*************************************/
+@media screen and (min-width:720px) and (max-width:1000px) {
+.content ul li{width: 33.33333%; height: 801px;}
+.content ul li div{display:inline-block;}
+.content ul li>img{display: none;}
+.smas{display: none;}
+}
+
+/***********************************480-720*************************************/
+@media screen and (min-width:480px) and (max-width:719px) {
+.content{padding-top: 20px; padding-bottom: 20px;}
+.content>ul{padding-top:27px;}
+.content ul li{width: 33.33333%; margin-bottom: 20px; padding: 0 5px; cursor: pointer;}
+.content ul li div{display: none; cursor: auto;}
+.content ul li div p{padding: 0;}
+.content ul li.active div{display: block; width: 80%; background: #fff; box-shadow: 0 0 10px #000000; position: fixed; top: 30%; left: 10%; z-index: 99999999999999999; padding: 15px;}
+.content ul li.active::before{content: " "; display: block; width: 100%; height: 100%; background: rgba(0,0,0,0.5); position: fixed; top: 0px; left: 0px; z-index: 999999999;}
+.content ul li>div>img{width: 25%; float: right; padding: 0 0 10px 10px;}
+.bigs{display: none;}
+}
+
+/***********************************小于480*************************************/
+@media screen and (max-width:479px) {
+.content{padding-top: 10px; padding-bottom: 20px;}
+.content>ul{padding-top:27px;}
+.content ul li{width: 50%; margin-bottom: 20px; padding: 0 5px; cursor: pointer;}
+.content ul li div{display: none;}
+.content ul li div p{padding: 0;}
+.content ul li.active div{display: block; width: 80%; background: #fff; box-shadow: 0 0 10px #000000; position: fixed; top: 30%; left: 10%; z-index: 9999999999999; padding: 15px;}
+.content ul li.active::before{content: " "; display: block; width: 100%; height: 100%; background: rgba(0,0,0,0.6); position: fixed; top: 0px; left: 0px; z-index: 9999999999;}
+.content ul li>div>img{width: 30%; float: right; padding: 0 0 10px 10px;}
+.bigs{display: none;}
+
+}
